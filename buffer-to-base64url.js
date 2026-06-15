@@ -6,3 +6,4 @@ function bufferToBase64URL(buffer) {
   const base64 = btoa(string);
   return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
 }
+
