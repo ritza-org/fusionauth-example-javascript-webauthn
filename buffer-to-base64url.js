@@ -7,3 +7,4 @@ function bufferToBase64URL(buffer) {
   return base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
 }
 
+
